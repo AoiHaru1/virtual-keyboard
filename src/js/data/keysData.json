@@ -1,0 +1,747 @@
+[
+  [
+    {
+      "ru": [
+        "ё",
+        "Ё"
+      ],
+      "en": [
+        "`",
+        "~"
+      ],
+      "tagClass": "key",
+      "eventCode": "Backquote"
+    },
+    {
+      "ru": [
+        "1",
+        "!"
+      ],
+      "en": [
+        "1",
+        "!"
+      ],
+      "tagClass": "key",
+      "eventCode": "Digit1"
+    },
+    {
+      "ru": [
+        "2",
+        "201C"
+      ],
+      "en": [
+        "2",
+        "@"
+      ],
+      "tagClass": "key",
+      "eventCode": "Digit2"
+    },
+    {
+      "ru": [
+        "3",
+        "№"
+      ],
+      "en": [
+        "3",
+        "#"
+      ],
+      "tagClass": "key",
+      "eventCode": "Digit3"
+    },
+    {
+      "ru": [
+        "4",
+        ";"
+      ],
+      "en": [
+        "4",
+        "$"
+      ],
+      "tagClass": "key",
+      "eventCode": "Digit4"
+    },
+    {
+      "ru": [
+        "5",
+        "%"
+      ],
+      "en": [
+        "5",
+        "%"
+      ],
+      "tagClass": "key",
+      "eventCode": "Digit5"
+    },
+    {
+      "ru": [
+        "6",
+        ":"
+      ],
+      "en": [
+        "6",
+        "^"
+      ],
+      "tagClass": "key",
+      "eventCode": "Digit6"
+    },
+    {
+      "ru": [
+        "7",
+        "?"
+      ],
+      "en": [
+        "7",
+        "&"
+      ],
+      "tagClass": "key",
+      "eventCode": "Digit7"
+    },
+    {
+      "ru": [
+        "8",
+        "*"
+      ],
+      "en": [
+        "8",
+        "*"
+      ],
+      "tagClass": "key",
+      "eventCode": "Digit8"
+    },
+    {
+      "ru": [
+        "9",
+        "("
+      ],
+      "en": [
+        "9",
+        "("
+      ],
+      "tagClass": "key",
+      "eventCode": "Digit9"
+    },
+    {
+      "ru": [
+        "0",
+        ")"
+      ],
+      "en": [
+        "0",
+        ")"
+      ],
+      "tagClass": "key",
+      "eventCode": "Digit0"
+    },
+    {
+      "ru": [
+        "backspace",
+        "backspace"
+      ],
+      "en": [
+        "backspace",
+        "backspace"
+      ],
+      "tagClass": "key backspace",
+      "uniq": true,
+      "eventCode": "Backspace"
+    }
+  ],
+  [
+    {
+      "ru": [
+        "tab",
+        "tab"
+      ],
+      "en": [
+        "tab",
+        "tab"
+      ],
+      "tagClass": "key tab",
+      "uniq": true,
+      "eventCode": "Tab"
+    },
+    {
+      "ru": [
+        "й",
+        "Й"
+      ],
+      "en": [
+        "q",
+        "Q"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyQ"
+    },
+    {
+      "ru": [
+        "ц",
+        "Ц"
+      ],
+      "en": [
+        "w",
+        "W"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyW"
+    },
+    {
+      "ru": [
+        "у",
+        "У"
+      ],
+      "en": [
+        "e",
+        "E"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyE"
+    },
+    {
+      "ru": [
+        "к",
+        "К"
+      ],
+      "en": [
+        "r",
+        "R"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyR"
+    },
+    {
+      "ru": [
+        "е",
+        "Е"
+      ],
+      "en": [
+        "t",
+        "T"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyT"
+    },
+    {
+      "ru": [
+        "н",
+        "Н"
+      ],
+      "en": [
+        "y",
+        "Y"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyY"
+    },
+    {
+      "ru": [
+        "г",
+        "Г"
+      ],
+      "en": [
+        "u",
+        "U"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyU"
+    },
+    {
+      "ru": [
+        "ш",
+        "Ш"
+      ],
+      "en": [
+        "i",
+        "I"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyI"
+    },
+    {
+      "ru": [
+        "щ",
+        "Щ"
+      ],
+      "en": [
+        "o",
+        "O"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyO"
+    },
+    {
+      "ru": [
+        "з",
+        "З"
+      ],
+      "en": [
+        "p",
+        "P"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyP"
+    },
+    {
+      "ru": [
+        "х",
+        "Х"
+      ],
+      "en": [
+        "[",
+        "{"
+      ],
+      "tagClass": "key",
+      "eventCode": "BracketLeft"
+    },
+    {
+      "ru": [
+        "ъ",
+        "Ъ"
+      ],
+      "en": [
+        "]",
+        "}"
+      ],
+      "tagClass": "key",
+      "eventCode": "BracketRight"
+    },
+    {
+      "ru": [
+        "\\",
+        "/"
+      ],
+      "en": [
+        "\\",
+        "|"
+      ],
+      "tagClass": "key",
+      "eventCode": "Backslash"
+    }
+  ],
+  [
+    {
+      "ru": [
+        "capslock",
+        "capslock"
+      ],
+      "en": [
+        "capslock",
+        "capslock"
+      ],
+      "tagClass": "key capslock",
+      "uniq": true,
+      "eventCode": "CapsLock"
+    },
+    {
+      "ru": [
+        "ф",
+        "Ф"
+      ],
+      "en": [
+        "a",
+        "A"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyA"
+    },
+    {
+      "ru": [
+        "ы",
+        "Ы"
+      ],
+      "en": [
+        "s",
+        "S"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyS"
+    },
+    {
+      "ru": [
+        "в",
+        "В"
+      ],
+      "en": [
+        "d",
+        "D"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyD"
+    },
+    {
+      "ru": [
+        "а",
+        "А"
+      ],
+      "en": [
+        "f",
+        "F"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyF"
+    },
+    {
+      "ru": [
+        "п",
+        "П"
+      ],
+      "en": [
+        "g",
+        "G"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyG"
+    },
+    {
+      "ru": [
+        "р",
+        "Р"
+      ],
+      "en": [
+        "h",
+        "H"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyH"
+    },
+    {
+      "ru": [
+        "о",
+        "О"
+      ],
+      "en": [
+        "j",
+        "J"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyJ"
+    },
+    {
+      "ru": [
+        "л",
+        "Л"
+      ],
+      "en": [
+        "k",
+        "K"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyK"
+    },
+    {
+      "ru": [
+        "д",
+        "Д"
+      ],
+      "en": [
+        "l",
+        "L"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyL"
+    },
+    {
+      "ru": [
+        "ж",
+        "Ж"
+      ],
+      "en": [
+        ";",
+        ":"
+      ],
+      "tagClass": "key",
+      "eventCode": "Semicolon"
+    },
+    {
+      "ru": [
+        "э",
+        "Э"
+      ],
+      "en": [
+        "'",
+        "\""
+      ],
+      "tagClass": "key",
+      "eventCode": "Quote"
+    },
+    {
+      "ru": [
+        "enter",
+        "enter"
+      ],
+      "en": [
+        "enter",
+        "enter"
+      ],
+      "tagClass": "key enter",
+      "uniq": true,
+      "eventCode": "Enter"
+    }
+  ],
+  [
+    {
+      "ru": [
+        "shift",
+        "shift"
+      ],
+      "en": [
+        "shift",
+        "shift"
+      ],
+      "tagClass": "key shift",
+      "uniq": true,
+      "eventCode": "ShiftLeft"
+    },
+    {
+      "ru": [
+        "я",
+        "Я"
+      ],
+      "en": [
+        "z",
+        "Z"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyZ"
+    },
+    {
+      "ru": [
+        "ч",
+        "Ч"
+      ],
+      "en": [
+        "x",
+        "X"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyX"
+    },
+    {
+      "ru": [
+        "с",
+        "С"
+      ],
+      "en": [
+        "c",
+        "C"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyC"
+    },
+    {
+      "ru": [
+        "м",
+        "М"
+      ],
+      "en": [
+        "v",
+        "V"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyV"
+    },
+    {
+      "ru": [
+        "и",
+        "И"
+      ],
+      "en": [
+        "b",
+        "B"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyB"
+    },
+    {
+      "ru": [
+        "т",
+        "Т"
+      ],
+      "en": [
+        "n",
+        "N"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyN"
+    },
+    {
+      "ru": [
+        "ь",
+        "Ь"
+      ],
+      "en": [
+        "m",
+        "M"
+      ],
+      "tagClass": "key",
+      "eventCode": "KeyM"
+    },
+    {
+      "ru": [
+        "б",
+        "Б"
+      ],
+      "en": [
+        ",",
+        "<"
+      ],
+      "tagClass": "key",
+      "eventCode": "NumpadDecimal"
+    },
+    {
+      "ru": [
+        "ю",
+        "Ю"
+      ],
+      "en": [
+        ".",
+        ">"
+      ],
+      "tagClass": "key",
+      "eventCode": "Period"
+    },
+    {
+      "ru": [
+        ".",
+        ","
+      ],
+      "en": [
+        "/",
+        "?"
+      ],
+      "tagClass": "key",
+      "eventCode": "Period"
+    },
+    {
+      "ru": [
+        "shift",
+        "shift"
+      ],
+      "en": [
+        "shift",
+        "shift"
+      ],
+      "tagClass": "key shift",
+      "uniq": true,
+      "eventCode": "ShiftRight"
+    },
+    {
+      "ru": [
+        "↑",
+        "↑"
+      ],
+      "en": [
+        "↑",
+        "↑"
+      ],
+      "tagClass": "key key-up",
+      "uniq": true,
+      "eventCode": "ArrowUp"
+    }
+  ],
+  [
+    {
+      "ru": [
+        "ctrl",
+        "ctrl"
+      ],
+      "en": [
+        "ctrl",
+        "ctrl"
+      ],
+      "tagClass": "key ctrl",
+      "uniq": true,
+      "eventCode": "ControlLeft"
+    },
+    {
+      "ru": [
+        "alt",
+        "alt"
+      ],
+      "en": [
+        "alt",
+        "alt"
+      ],
+      "tagClass": "key alt",
+      "uniq": true,
+      "eventCode": "AltLeft"
+    },
+    {
+      "ru": [
+        "____",
+        "____"
+      ],
+      "en": [
+        "____",
+        "____"
+      ],
+      "tagClass": "key space",
+      "uniq": true,
+      "eventCode": "Space"
+    },
+    {
+      "ru": [
+        "alt",
+        "alt"
+      ],
+      "en": [
+        "alt",
+        "alt"
+      ],
+      "tagClass": "key alt",
+      "uniq": true,
+      "eventCode": "AltRight"
+    },
+    {
+      "ru": [
+        "ctrl",
+        "ctrl"
+      ],
+      "en": [
+        "ctrl",
+        "ctrl"
+      ],
+      "tagClass": "key",
+      "uniq": true,
+      "eventCode": "ControlRight"
+    },
+    {
+      "ru": [
+        "←",
+        "←"
+      ],
+      "en": [
+        "←",
+        "←"
+      ],
+      "tagClass": "key key-left",
+      "uniq": true,
+      "eventCode": "ArrowLeft"
+    },
+    {
+      "ru": [
+        "↓",
+        "↓"
+      ],
+      "en": [
+        "↓",
+        "↓"
+      ],
+      "tagClass": "key key-down",
+      "uniq": true,
+      "eventCode": "ArrowDown"
+    },
+    {
+      "ru": [
+        "→",
+        "→"
+      ],
+      "en": [
+        "→",
+        "→"
+      ],
+      "tagClass": "key key-right",
+      "uniq": true,
+      "eventCode": "ArrowRight"
+    }
+  ]
+]
