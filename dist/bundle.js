@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_css_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/css/style.css */ \"./src/assets/css/style.css\");\n/* harmony import */ var _modules_containersTemplate__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/containersTemplate */ \"./src/js/modules/containersTemplate.js\");\n\n\n\nconst data = __webpack_require__(/*! ./data/keysData.json */ \"./src/js/data/keysData.json\");\nconsole.log(data)\n\n;(0,_modules_containersTemplate__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n\n//# sourceURL=webpack://virtual-keyboard/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_css_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/css/style.css */ \"./src/assets/css/style.css\");\n/* harmony import */ var _modules_containersTemplate__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/containersTemplate */ \"./src/js/modules/containersTemplate.js\");\n\n\n\nconst data = __webpack_require__(/*! ./data/keysData.json */ \"./src/js/data/keysData.json\");\n\n(0,_modules_containersTemplate__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n\n//# sourceURL=webpack://virtual-keyboard/./src/js/index.js?");
 
 /***/ }),
 
