@@ -134,6 +134,30 @@
     },
     {
       "ru": [
+        "-",
+        "_"
+      ],
+      "en": [
+        "-",
+        "_"
+      ],
+      "tagClass": "key",
+      "eventCode": "Minus"
+    },
+    {
+      "ru": [
+        "=",
+        "+"
+      ],
+      "en": [
+        "=",
+        "+"
+      ],
+      "tagClass": "key",
+      "eventCode": "Equal"
+    },
+    {
+      "ru": [
         "backspace",
         "backspace"
       ],
@@ -585,7 +609,7 @@
         "<"
       ],
       "tagClass": "key",
-      "eventCode": "NumpadDecimal"
+      "eventCode": "Comma"
     },
     {
       "ru": [
@@ -609,7 +633,7 @@
         "?"
       ],
       "tagClass": "key",
-      "eventCode": "Period"
+      "eventCode": "Slash"
     },
     {
       "ru": [

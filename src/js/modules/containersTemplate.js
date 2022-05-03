@@ -7,6 +7,9 @@ const ContainerTemplateCreator = () => {
   const wrapper = document.createElement('div');
   wrapper.classList.add('wrapper');
   const textArea = document.createElement('textarea');
+  textArea.cols = "100";
+  textArea.rows = "15";
+  textArea.autofocus = true;
   textArea.classList.add('text-input');
   const keyboard = document.createElement('div');
   keyboard.classList.add('keyboard');
