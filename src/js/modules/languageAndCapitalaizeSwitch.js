@@ -23,6 +23,12 @@ const languageAndCapitalaizeSwitch = (e, listOfKeys, currentLang, capsState) => 
   }
 
   if (e.shiftKey && e.altKey) {
+    if (currentLang === 'en') {
+      localStorage.setItem('lang', 'en');
+    }
+    if (currentLang === 'ru') {
+      localStorage.setItem('lang', 'ru');
+    }
     if (capsState && currentLang === 'en') {
       listOfKeys.forEach(x => {
         const item = x;
