@@ -339,6 +339,18 @@
       ],
       "tagClass": "key",
       "eventCode": "Backslash"
+    },
+    {
+      "ru": [
+        "del",
+        "del"
+      ],
+      "en": [
+        "del",
+        "del"
+      ],
+      "tagClass": "key",
+      "eventCode": "Delete"
     }
   ],
   [

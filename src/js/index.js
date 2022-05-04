@@ -6,7 +6,6 @@ import languageAndCapitalaizeSwitch from './modules/languageAndCapitalaizeSwitch
 const data = require('./data/keysData.json');
 
 if (!localStorage.getItem('lang')) {
-  console.log(1)
   localStorage.setItem('lang', 'ru');
 }
 
@@ -67,3 +66,14 @@ listOfKeys[14].addEventListener('click', () => {
 });
 
 // console.log(textInput.selectionStart);
+// if (container.innerHTML === '←') {
+//   e.preventDefault();
+//   textInput.setSelectionRange(selectionPos - 1, selectionPos - 1);
+//   selectionPos -= 1;
+// }
+
+// let selectionPos = 0;
+
+// textInput.addEventListener('click', () => {
+//   selectionPos = textInput.selectionStart;
+// });
