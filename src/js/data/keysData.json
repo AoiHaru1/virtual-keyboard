@@ -27,7 +27,7 @@
     {
       "ru": [
         "2",
-        "201C"
+        "\""
       ],
       "en": [
         "2",
@@ -658,7 +658,7 @@
         "↑"
       ],
       "tagClass": "key key-up",
-      "uniq": true,
+      "uniq": false,
       "eventCode": "ArrowUp"
     }
   ],
@@ -738,7 +738,7 @@
         "←"
       ],
       "tagClass": "key key-left",
-      "uniq": true,
+      "uniq": false,
       "eventCode": "ArrowLeft"
     },
     {
@@ -751,7 +751,7 @@
         "↓"
       ],
       "tagClass": "key key-down",
-      "uniq": true,
+      "uniq": false,
       "eventCode": "ArrowDown"
     },
     {
@@ -764,7 +764,7 @@
         "→"
       ],
       "tagClass": "key key-right",
-      "uniq": true,
+      "uniq": false,
       "eventCode": "ArrowRight"
     }
   ]

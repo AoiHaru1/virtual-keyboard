@@ -30,4 +30,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
+  cursor: pointer;
+  user-select: none;
+}
+
+.active {
+  background-color: red;
+}
+
+.caps-active {
+  background-color: red !important; 
 }
