@@ -349,6 +349,7 @@
         "del",
         "del"
       ],
+      "uniq": true,
       "tagClass": "key",
       "eventCode": "Delete"
     }
@@ -649,6 +650,19 @@
     },
     {
       "ru": [
+        "↑",
+        "↑"
+      ],
+      "en": [
+        "↑",
+        "↑"
+      ],
+      "tagClass": "key key-up",
+      "uniq": true,
+      "eventCode": "ArrowUp"
+    },
+    {
+      "ru": [
         "shift",
         "shift"
       ],
@@ -659,19 +673,6 @@
       "tagClass": "key shift",
       "uniq": true,
       "eventCode": "ShiftRight"
-    },
-    {
-      "ru": [
-        "↑",
-        "↑"
-      ],
-      "en": [
-        "↑",
-        "↑"
-      ],
-      "tagClass": "key key-up",
-      "uniq": false,
-      "eventCode": "ArrowUp"
     }
   ],
   [
@@ -729,19 +730,6 @@
     },
     {
       "ru": [
-        "ctrl",
-        "ctrl"
-      ],
-      "en": [
-        "ctrl",
-        "ctrl"
-      ],
-      "tagClass": "key",
-      "uniq": true,
-      "eventCode": "ControlRight"
-    },
-    {
-      "ru": [
         "←",
         "←"
       ],
@@ -750,7 +738,7 @@
         "←"
       ],
       "tagClass": "key key-left",
-      "uniq": false,
+      "uniq": true,
       "eventCode": "ArrowLeft"
     },
     {
@@ -763,7 +751,7 @@
         "↓"
       ],
       "tagClass": "key key-down",
-      "uniq": false,
+      "uniq": true,
       "eventCode": "ArrowDown"
     },
     {
@@ -776,8 +764,21 @@
         "→"
       ],
       "tagClass": "key key-right",
-      "uniq": false,
+      "uniq": true,
       "eventCode": "ArrowRight"
+    },
+    {
+      "ru": [
+        "ctrl",
+        "ctrl"
+      ],
+      "en": [
+        "ctrl",
+        "ctrl"
+      ],
+      "tagClass": "key",
+      "uniq": true,
+      "eventCode": "ControlRight"
     }
   ]
 ]

@@ -1,6 +1,6 @@
 const languageAndCapitalaizeSwitch = (e, listOfKeys, currentLang, capsState) => {
   if (e.code === 'CapsLock') {
-    listOfKeys[28].classList.toggle('caps-active');
+    listOfKeys[29].classList.toggle('caps-active');
     listOfKeys.forEach(x => {
       if (currentLang === 'ru') {
         if (!capsState) {

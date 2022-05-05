@@ -1,4 +1,4 @@
-import setDataAttribute from "./dataAttributeSetter";
+import setDataAttribute from './dataAttributeSetter';
 
 // implementaion of key container creation
 class KeysCreator {

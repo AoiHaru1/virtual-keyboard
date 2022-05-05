@@ -29,28 +29,46 @@ const activeListener = (e, keyState) => {
     return;
   }
 
+  if (e.ctrlKey || e.altKey || e.shiftKey) {
+    container.classList.add('active');
+    return;
+  }
+
   if (keyState && container.innerHTML !== 'capslock') {
     container.classList.add('active');
   }
 
-  if (!keyState) {
-    container.classList.remove('active');
+  if (container.dataset.is_uniq === 'false') {
+    // ctrl alt + any key default ????
+    e.preventDefault();
+    textInput.setRangeText(container.innerHTML, textInput.selectionStart, textInput.selectionEnd);
+    textInput.setSelectionRange(textInput.selectionStart + 1, textInput.selectionStart + 1);
   }
 
   if (container.innerHTML === 'tab') {
     e.preventDefault();
-    textInput.focus();
-    textInput.value += "   ";
+    textInput.value += '   ';
   }
 };
 
 document.addEventListener('keydown', (e) => activeListener(e, true));
 
-document.addEventListener('keyup', () => listOfKeys.forEach(x => x.classList.remove('active')));
+document.addEventListener('keyup', (e) => {
+  const code = e.code;
+  const container = document.querySelector(`[data-event_code = ${code}]`);
+  if (!container) {
+    return;
+  }
+  container.classList.remove('active');
+});
 
 document.addEventListener('keydown', (e) => {
   if (e.shiftKey && e.altKey) {
     currentLanguage = currentLanguage === 'ru' ? 'en' : 'ru';
+  }
+
+  if (e.ctrlKey || e.altKey || e.shiftKey) {
+    return;
   }
 
   languageAndCapitalaizeSwitch(e, listOfKeys, currentLanguage, capsState);
@@ -58,11 +76,6 @@ document.addEventListener('keydown', (e) => {
   if (e.code === 'CapsLock') {
     capsState = !capsState;
   }
-});
-
-listOfKeys[14].addEventListener('click', () => {
-  textInput.focus();
-  textInput.value += "   ";
 });
 
 // console.log(textInput.selectionStart);

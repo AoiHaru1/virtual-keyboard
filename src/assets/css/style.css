@@ -6,16 +6,29 @@
   width: 1100px;
   height: 900px;
   margin: auto auto;
-  border: 1px solid black;
-  background-color: white;
+  border: 1px solid #E3EEFF;
+  border-radius: 10px;
+  background-color: #EDF9FF;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
+.text-input {
+  background-color:#e3f9ff;
+  color: #1E2938;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-size: 17px;
+  border: 1px solid #2e4847;
+  border-radius: 10px;
+}
+
 .keyboard {
   width: 1000px;
+  background-color: #EDF9FF;
+  border-radius: 10px;
 }
 
 .key-row {
@@ -24,9 +37,15 @@
 
 .key {
   display: block;
-  width: 100%;
-  height: 50px;
-  border: 1px solid black;
+  width: 65px;
+  height: 65px;
+  border: 1px solid #2136367e;
+  border-radius: 10px;
+  background-color: #E3EEFF;
+  color: #1E2938;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,11 +53,22 @@
   cursor: pointer;
   user-select: none;
 }
+.key:hover {
+  background-color:#E1FAFC;
+}
 
 .active {
-  background-color: red;
+  background-color: #E1FAFC
 }
 
 .caps-active {
-  background-color: red !important; 
+  background-color: #E1FAFC !important; 
+}
+
+.backspace, .capslock, .enter, .shift {
+  width: 130px!important; 
+}
+
+.space {
+  width: 545px;
 }
