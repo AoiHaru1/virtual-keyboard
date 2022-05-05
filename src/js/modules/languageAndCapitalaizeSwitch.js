@@ -2,7 +2,7 @@ const languageAndCapitalaizeSwitch = (e, listOfKeys, currentLang, capsState) => 
   if (e.code === 'CapsLock') {
     listOfKeys[29].classList.toggle('caps-active');
     listOfKeys.forEach(x => {
-      if (currentLang === 'ru') {
+      if (currentLang === 'ru' && !x.classList.contains('caps-inactive-ru')) {
         if (!capsState) {
           const item = x;
           item.innerHTML = x.dataset.ru_upper;
@@ -10,7 +10,7 @@ const languageAndCapitalaizeSwitch = (e, listOfKeys, currentLang, capsState) => 
           const item = x;
           item.innerHTML = x.dataset.ru_lower;
         }
-      } else if (currentLang === 'en') {
+      } else if (currentLang === 'en' && !x.classList.contains('caps-inactive-en')) {
         if (!capsState) {
           const item = x;
           item.innerHTML = x.dataset.en_upper;

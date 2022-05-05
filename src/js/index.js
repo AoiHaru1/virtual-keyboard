@@ -67,10 +67,6 @@ document.addEventListener('keydown', (e) => {
     currentLanguage = currentLanguage === 'ru' ? 'en' : 'ru';
   }
 
-  if (e.ctrlKey || e.altKey || e.shiftKey) {
-    return;
-  }
-
   languageAndCapitalaizeSwitch(e, listOfKeys, currentLanguage, capsState);
 
   if (e.code === 'CapsLock') {
