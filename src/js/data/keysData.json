@@ -619,7 +619,7 @@
       ],
       "en": [
         ",",
-        "<"
+        "＜"
       ],
       "tagClass": "key caps-inactive-en",
       "eventCode": "Comma"
@@ -631,7 +631,7 @@
       ],
       "en": [
         ".",
-        ">"
+        "＞"
       ],
       "tagClass": "key caps-inactive-en",
       "eventCode": "Period"

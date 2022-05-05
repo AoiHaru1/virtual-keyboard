@@ -40,3 +40,89 @@ document.addEventListener('keydown', (e) => {
 
   languageAndCapitalaizeSwitch(e, listOfKeys, currentLanguage, capsState);
 });
+
+document.addEventListener('keydown', (e) => {
+  if (e.shiftKey) {
+    if (currentLanguage === 'ru' && !capsState) {
+      listOfKeys.forEach(x => {
+        const item = x;
+        item.innerHTML = x.dataset.ru_upper;
+      });
+    }
+
+    if (currentLanguage === 'ru' && capsState) {
+      listOfKeys.forEach(x => {
+        const item = x;
+        item.innerHTML = x.dataset.ru_lower;
+      });
+      listOfKeys.forEach(x => {
+        const item = x;
+        if (item.classList.contains('caps-inactive-ru')) {
+          item.innerHTML = x.dataset.ru_upper;
+        }
+      });
+    }
+
+    if (currentLanguage === 'en' && !capsState) {
+      listOfKeys.forEach(x => {
+        const item = x;
+        item.innerHTML = x.dataset.en_upper;
+      });
+    }
+
+    if (currentLanguage === 'en' && capsState) {
+      listOfKeys.forEach(x => {
+        const item = x;
+        item.innerHTML = x.dataset.en_lower;
+      });
+      listOfKeys.forEach(x => {
+        const item = x;
+        if (item.classList.contains('caps-inactive-en')) {
+          item.innerHTML = x.dataset.en_upper;
+        }
+      });
+    }
+  }
+});
+
+document.addEventListener('keyup', (e) => {
+  if (e.code === 'ShiftRight' || e.code === 'ShiftLeft') {
+    if (currentLanguage === 'ru' && !capsState) {
+      listOfKeys.forEach(x => {
+        const item = x;
+        item.innerHTML = x.dataset.ru_lower;
+      });
+    }
+    if (currentLanguage === 'ru' && capsState) {
+      listOfKeys.forEach(x => {
+        const item = x;
+        item.innerHTML = x.dataset.ru_upper;
+      });
+      listOfKeys.forEach(x => {
+        const item = x;
+        if (item.classList.contains('caps-inactive-ru')) {
+          item.innerHTML = x.dataset.ru_lower;
+        }
+      });
+    }
+
+    if (currentLanguage === 'en' && !capsState) {
+      listOfKeys.forEach(x => {
+        const item = x;
+        item.innerHTML = x.dataset.en_lower;
+      });
+    }
+    if (currentLanguage === 'en' && capsState) {
+      listOfKeys.forEach(x => {
+        const item = x;
+        item.innerHTML = x.dataset.en_upper;
+      });
+      listOfKeys.forEach(x => {
+        const item = x;
+        if (item.classList.contains('caps-inactive-en')) {
+          item.innerHTML = x.dataset.en_lower;
+        }
+      });
+    }
+  }
+});
