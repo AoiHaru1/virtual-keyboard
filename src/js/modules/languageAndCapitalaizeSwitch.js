@@ -1,5 +1,5 @@
-const languageAndCapitalaizeSwitch = (e, listOfKeys, currentLang, capsState) => {
-  if (e.code === 'CapsLock') {
+const languageAndCapitalaizeSwitch = (e, listOfKeys, currentLang, capsState, itsMouse) => {
+  if (e.code === 'CapsLock' || itsMouse) {
     listOfKeys[29].classList.toggle('caps-active');
     listOfKeys.forEach(x => {
       if (currentLang === 'ru' && !x.classList.contains('caps-inactive-ru')) {

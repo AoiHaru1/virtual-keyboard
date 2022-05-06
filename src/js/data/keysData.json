@@ -91,7 +91,7 @@
       ],
       "en": [
         "7",
-        "&"
+        "＆"
       ],
       "tagClass": "key caps-inactive-ru caps-inactive-en",
       "eventCode": "Digit7"
@@ -350,7 +350,7 @@
         "del"
       ],
       "uniq": true,
-      "tagClass": "key",
+      "tagClass": "key del",
       "eventCode": "Delete"
     }
   ],
