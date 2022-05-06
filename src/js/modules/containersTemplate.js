@@ -13,8 +13,16 @@ const ContainerTemplateCreator = () => {
   textArea.classList.add('text-input');
   const keyboard = document.createElement('div');
   keyboard.classList.add('keyboard');
+  const footer = document.createElement('footer');
+  const OSdescr = document.createElement('span');
+  OSdescr.innerHTML = 'The keyboard was created in Windows';
+  const languageSwitch = document.createElement('span');
+  languageSwitch.innerHTML = 'Keyboard shortcut to switch language: SHIFT + ALT (left)';
+  footer.appendChild(OSdescr);
+  footer.appendChild(languageSwitch);
   wrapper.appendChild(textArea);
   wrapper.appendChild(keyboard);
+  wrapper.appendChild(footer);
   container.appendChild(wrapper);
   body.appendChild(container);
 };

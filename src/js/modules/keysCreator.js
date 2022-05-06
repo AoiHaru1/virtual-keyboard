@@ -6,9 +6,11 @@ class KeysCreator {
     this.parent = parent;
     this.list = list;
     this.lang = lang;
+    this.arr = [];
   }
 
   keyContainerCreator(item) {
+    this.arr.push(1);
     const {
       ru, en, tagClass, uniq, eventCode
     } = item;

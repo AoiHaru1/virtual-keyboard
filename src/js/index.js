@@ -105,6 +105,15 @@ document.querySelector('.space').addEventListener('click', () => {
   textInput.setSelectionRange(textInput.selectionStart + 8, textInput.selectionStart + 8);
 });
 
+document.querySelector('.alt').addEventListener('click', (e) => {
+  if (document.querySelector('.shift').classList.contains('active')) {
+    currentLanguage = currentLanguage === 'ru' ? 'en' : 'ru';
+    languageAndCapitalaizeSwitch(e, listOfKeys, currentLanguage, capsState, false, true);
+    document.querySelector('.shift').classList.remove('active');
+    mouseShift = !mouseShift;
+  }
+});
+
 document.querySelector('.backspace').addEventListener('click', () => {
   if (textInput.selectionStart === 0 && textInput.selectionEnd === 0) {
     return;

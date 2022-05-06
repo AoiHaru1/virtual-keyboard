@@ -1,4 +1,4 @@
-const languageAndCapitalaizeSwitch = (e, listOfKeys, currentLang, capsState, itsMouse) => {
+const languageAndCapitalaizeSwitch = (e, listOfKeys, currentLang, capsState, itsMouse, a) => {
   if (e.code === 'CapsLock' || itsMouse) {
     listOfKeys[29].classList.toggle('caps-active');
     listOfKeys.forEach(x => {
@@ -22,7 +22,7 @@ const languageAndCapitalaizeSwitch = (e, listOfKeys, currentLang, capsState, its
     });
   }
 
-  if (e.shiftKey && e.altKey) {
+  if ((e.shiftKey && e.altKey) || a) {
     if (currentLang === 'en') {
       localStorage.setItem('lang', 'en');
     }

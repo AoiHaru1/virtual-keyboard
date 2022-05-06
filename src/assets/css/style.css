@@ -72,3 +72,20 @@ body {
 .space {
   width: 545px;
 }
+
+footer span {
+  display: block;
+  color: #1E2938;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
