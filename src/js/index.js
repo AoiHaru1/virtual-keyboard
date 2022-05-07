@@ -129,8 +129,7 @@ document.querySelector('.backspace').addEventListener('click', () => {
 
 document.querySelector('.enter').addEventListener('click', () => {
   textInput.setRangeText('\n', textInput.selectionStart, textInput.selectionEnd);
-  textInput.setSelectionRange(textInput.selectionStart, textInput.selectionStart);
-  document.querySelector('.key-right').click('');
+  textInput.setSelectionRange(textInput.selectionStart + 1, textInput.selectionStart + 1);
 });
 
 document.querySelector('.del').addEventListener('click', () => {

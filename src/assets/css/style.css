@@ -53,12 +53,21 @@ body {
   cursor: pointer;
   user-select: none;
 }
+
 .key:hover {
   background-color:#E1FAFC;
 }
 
+.key:active {
+  background-color:#7fe6edb4;
+}
+
+.key {
+  transition: background-color 0.2s ease-in-out;
+}
+
 .active {
-  background-color: #E1FAFC
+  background-color: #7bafb3b5;
 }
 
 .caps-active {
@@ -89,3 +98,4 @@ footer span {
   align-items: center;
   gap: 30px;
 }
+
