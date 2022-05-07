@@ -131,8 +131,13 @@ document.querySelector('.enter').addEventListener('click', () => {
 });
 
 document.querySelector('.del').addEventListener('click', () => {
-  textInput.setRangeText('', textInput.selectionStart, textInput.selectionEnd + 1);
-  textInput.setSelectionRange(textInput.selectionStart, textInput.selectionStart);
+  if (textInput.selectionStart === textInput.selectionEnd) {
+    textInput.setRangeText('', textInput.selectionStart, textInput.selectionEnd + 1);
+    textInput.setSelectionRange(textInput.selectionStart, textInput.selectionStart);
+  } else {
+    textInput.setRangeText('', textInput.selectionStart, textInput.selectionEnd);
+    textInput.setSelectionRange(textInput.selectionStart, textInput.selectionStart);
+  }
 });
 
 document.querySelector('.key-left').addEventListener('click', () => {
