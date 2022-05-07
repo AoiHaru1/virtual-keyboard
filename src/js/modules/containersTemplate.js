@@ -17,7 +17,7 @@ const ContainerTemplateCreator = () => {
   const OSdescr = document.createElement('span');
   OSdescr.innerHTML = 'The keyboard was created in Windows';
   const languageSwitch = document.createElement('span');
-  languageSwitch.innerHTML = 'Keyboard shortcut to switch language: SHIFT + ALT (left)';
+  languageSwitch.innerHTML = 'Keyboard shortcut to switch language: SHIFT(left) + ALT(left)';
   footer.appendChild(OSdescr);
   footer.appendChild(languageSwitch);
   wrapper.appendChild(textArea);

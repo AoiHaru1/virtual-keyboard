@@ -1,3 +1,9 @@
+@keyframes move_eye { from 
+  { margin-left:-20%; } 
+  to 
+  { margin-left:100%; } 
+ }
+
 body {
   background-color: #EDF9FF;
 }
@@ -42,6 +48,7 @@ body {
   border: 1px solid #2136367e;
   border-radius: 10px;
   background-color: #E3EEFF;
+  border-bottom: 6px solid #606d6db6;
   color: #1E2938;
   font-family: 'Georgia';
   font-style: normal;
@@ -55,23 +62,33 @@ body {
 }
 
 .key:hover {
+  margin-top: 2px;
+  border-bottom-width: 3px;
   background-color:#E1FAFC;
 }
 
-.key:active {
+.key:active {  
+  margin-top: 5px;
+  border-bottom-width: 0px;
   background-color:#7fe6edb4;
 }
 
 .key {
-  transition: background-color 0.2s ease-in-out;
+  transition: all 0.13s ease-in-out;
 }
 
 .active {
   background-color: #7bafb3b5;
+  margin-top: 5px;
+  border-bottom-width: 0px;
+  background-color:#7fe6edb4;
 }
 
 .caps-active {
-  background-color: #E1FAFC !important; 
+  background-color: #7bafb3b5;
+  margin-top: 5px;
+  border-bottom-width: 0px;
+  background-color:#7fe6edb4 !important; 
 }
 
 .backspace, .capslock, .enter, .shift {
