@@ -50,8 +50,6 @@ document.addEventListener('keyup', (e) => {
   shiftSwitch(e, false, listOfKeys, currentLanguage, capsState, false);
 });
 
-// mouse
-
 let mouseShift = false;
 const keyboard = document.querySelector('.keyboard');
 
