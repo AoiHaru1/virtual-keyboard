@@ -1,6 +1,5 @@
 import setDataAttribute from './dataAttributeSetter';
 
-// implementaion of key container creation
 class KeysCreator {
   constructor(parent, list, lang) {
     this.parent = parent;

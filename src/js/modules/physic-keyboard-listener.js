@@ -8,7 +8,6 @@ const activeListener = (e, keyState, textArea) => {
     return;
   }
 
-  // e.shiftKey???
   if (e.ctrlKey || e.altKey) {
     container.classList.add('active');
     return;
