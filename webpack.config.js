@@ -1,36 +1,35 @@
-/* eslint-disable */
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const path = require("path");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
 
 module.exports = {
-  entry: "./src/js/index.js",
+  entry: './src/js/index.js',
   output: {
-    filename: "bundle.js",
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true,
+    clean: true
   },
-  mode: "production",
+  mode: 'production',
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Virtual Keyboard',
       filename: 'index.html',
-      template: 'src/index.html',
+      template: 'src/index.html'
     })
   ],
   module: {
     rules: [
       {
         test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
+        use: ['style-loader', 'css-loader']
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
-      },
-    ],
+        type: 'asset/resource'
+      }
+    ]
   },
   devServer: {
     static: './dist',
-    port: 8888,
+    port: 8888
   }
 };
