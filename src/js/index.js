@@ -100,7 +100,7 @@ document.querySelector('.tab').addEventListener('click', () => {
 
 document.querySelector('.space').addEventListener('click', () => {
   textInput.setRangeText(' ', textInput.selectionStart, textInput.selectionEnd);
-  textInput.setSelectionRange(textInput.selectionStart + 8, textInput.selectionStart + 8);
+  textInput.setSelectionRange(textInput.selectionStart + 1, textInput.selectionStart + 1);
 });
 
 document.querySelector('.alt').addEventListener('click', (e) => {
