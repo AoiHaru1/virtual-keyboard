@@ -1,5 +1,3 @@
-// function that creates main containers
-
 const ContainerTemplateCreator = () => {
   const body = document.querySelector('body');
   const container = document.createElement('div');
