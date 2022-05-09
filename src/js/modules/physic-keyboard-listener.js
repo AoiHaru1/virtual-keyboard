@@ -8,9 +8,13 @@ const activeListener = (e, keyState, textArea) => {
     return;
   }
 
-  if (e.ctrlKey || e.altKey) {
+  if (e.ctrlKey) {
     container.classList.add('active');
     return;
+  }
+
+  if (e.altKey) {
+    e.preventDefault();
   }
 
   if (keyState && container.innerHTML !== 'capslock') {
